@@ -11,10 +11,15 @@
 
 .clock-interface {
 	width: 50%;
-	font-size: 72px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transform: translate(50% 50%);
-	border: 2px solid black;
+    font-size: 72px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+}
+
+.clock-display p {
+	color: black;
+	font-size: 1em;
 }
